@@ -1,7 +1,6 @@
 package com.example.mydatabaseapp.database
 
 import android.util.Log
-import androidx.lifecycle.LiveData
 
 class RegisterRepository(private val dao: RegisterDatabaseDao) {
 

@@ -8,8 +8,7 @@ import com.example.mydatabaseapp.databinding.ActivityMainBinding
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        @Suppress("UNUSED VARIABLE")
-        val binding = DataBindingUtil.setContentView<ActivityMainBinding>(this,R.layout.activity_main)
+        DataBindingUtil.setContentView<ActivityMainBinding>(this,R.layout.activity_main)
 
     }
 

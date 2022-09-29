@@ -6,9 +6,7 @@ import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.example.mydatabaseapp.R
 import com.example.mydatabaseapp.database.RegisterEntity
-import com.example.mydatabaseapp.database.RegisterRepository
 import com.example.mydatabaseapp.databinding.ListItemBinding
-import com.example.mydatabaseapp.databinding.RegisterHomeFragmentBinding
 
 class MyRecycleViewAdapter(private val usersList :List<RegisterEntity>):RecyclerView.Adapter<MyviewHolder>(){
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyviewHolder {
